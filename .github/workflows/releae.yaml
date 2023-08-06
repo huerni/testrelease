@@ -1,8 +1,8 @@
 on:
   release:
-      types: [push]
-      tags:
-        - "gmctl/*"
+    types: [push] 
+    tags:
+      - "gmctl/*"
 jobs:
   releases-matrix:
     name: Release goctl binary
