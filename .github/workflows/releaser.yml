@@ -28,7 +28,6 @@ jobs:
           distribution: goreleaser
           version: latest
           # project_path: "tools/goctl"
-          binary_name: "gmctl"
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
